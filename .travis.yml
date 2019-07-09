@@ -5,3 +5,14 @@ r:
   - oldrel
   - release
   - devel
+
+notifications:
+  email:
+    recipients:
+      - ceclaurent@gmail.com
+    on_success: change
+    on_failure: change
+
+git:
+  depth: 3
+
